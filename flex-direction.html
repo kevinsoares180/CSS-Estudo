@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
+    <link rel="stylesheet" href="style.css" />
     <style>
       .flex-container {
         margin: 0;
@@ -46,10 +46,20 @@
       .column-reverse li {
         background: purple;
       }
+      p {
+        font-weight: bold;
+        text-align: center;
+        width: 50px;
+        margin: 5px;
+      }
     </style>
   </head>
   <body>
+    <a href="index.html">
+      <button>Voltar ao Menu</button>
+    </a>
     <ul class="flex-container row">
+      <p>Row</p>
       <li class="flex-item">1</li>
       <li class="flex-item">2</li>
       <li class="flex-item">3</li>
@@ -62,8 +72,10 @@
       <li class="flex-item">3</li>
       <li class="flex-item">4</li>
       <li class="flex-item">5</li>
+      <p>Row Reverse</p>
     </ul>
     <ul class="flex-container column">
+      <p>Column</p>
       <li class="flex-item">1</li>
       <li class="flex-item">2</li>
       <li class="flex-item">3</li>
@@ -76,6 +88,7 @@
       <li class="flex-item">3</li>
       <li class="flex-item">4</li>
       <li class="flex-item">5</li>
+      <p>Column Reverse</p>
     </ul>
   </body>
 </html>
